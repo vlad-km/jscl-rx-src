@@ -1,6 +1,6 @@
 # JSCL-RX  
 
-Package **JSCL-RX** - lisp ([JSCL][jscl]) wrap for ([RxJS][rxjs]) 
+Package **JSCL-RX** - lisp ([JSCL][jscl]) wrap for [RxJS][rxjs] 
 
 It is intended for use in the [Moren][moren] environment.
 
