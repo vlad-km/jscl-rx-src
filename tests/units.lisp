@@ -9,7 +9,7 @@
                   (lambda (x) (print (list 'Error x)))
                   (lambda () (print 'Complete )) ))
 
-(fset 'mkjso #'make-js-object)
+;;;(fset 'mkjso #'make-js-object)
 
 
 ;;; observable-while
@@ -255,13 +255,6 @@
        (src))
     (setq src (funcall afn 11 22))
     (subs src))
-
-
-;;; OF-OBJECT-CHANGES
-
-(let ((obj (mkjso "x" 1)))
-    (subs (rx:observable-of-object-changes obj))
-    (setf (oget obj "x") 99) )
 
 
 ;;; TAKE-LAST
